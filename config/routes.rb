@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :pizza, only: [:index]
+  resources :pizzas, only: [:index]
 end
