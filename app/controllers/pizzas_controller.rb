@@ -11,7 +11,7 @@ class PizzasController < ApplicationController
     private 
 
     def pizza_params 
-        
+        params.require(:pizza).permint(:name, :description)
     end
 
 end
