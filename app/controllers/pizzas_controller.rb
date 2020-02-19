@@ -5,7 +5,12 @@ class PizzasController < ApplicationController
     end
 
     def create
-        
+        pizza = Pizza.new(pizza_params)
+        if pizza.save 
+            render json: pizza 
+        else
+            render json: { message: "Pizza could not be created" }
+        end
     end
 
     private 
