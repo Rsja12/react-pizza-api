@@ -8,4 +8,10 @@ class PizzasController < ApplicationController
         
     end
 
+    private 
+
+    def pizza_params 
+        
+    end
+
 end
