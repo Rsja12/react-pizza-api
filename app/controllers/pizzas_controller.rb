@@ -4,4 +4,8 @@ class PizzasController < ApplicationController
         render json: Pizza.all 
     end
 
+    def create
+        
+    end
+
 end
