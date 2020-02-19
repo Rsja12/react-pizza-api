@@ -7,4 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Pizza.create(name: 'Margherita', description: 'tomato sauce, mozzarela, basil')
+Pizza.create(name: 'Margherita', description: 'tomato sauce, mozzarella, basil')
+Pizza.create(name: 'Pepperoni', description: 'tomato sauce, mozzarella, pepperoni')
+Pizza.create(name: 'BBQ Chicken', description: 'BBQ sauce, chicken, cilantro, red onions, fontina')
+Pizza.create(name: 'Hawaiian', description: 'tomato sauce, cheese, ham, pineapple')
+Pizza.create(name: 'Meat-Lovers', description: 'pepperoni, sausage, meatballs, mushrooms')
+
