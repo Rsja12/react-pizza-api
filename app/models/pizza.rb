@@ -1,3 +1,3 @@
 class Pizza < ApplicationRecord
-    validates :pizza, uniqueness: true
+    validates :name, uniqueness: true
 end
