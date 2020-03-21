@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  resources :cart
+  resources :carts
   resources :pizzas, only: [:index, :create, :new]
 end

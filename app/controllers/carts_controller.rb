@@ -3,18 +3,27 @@ class CartsController < ApplicationController
   before_action :set_cart, except: [:create]
 
   def show
+      render json: @cart 
   end
 
   def create
+      @cart = Cart.new(cart_params)
+      if @cart.save 
+        render json @cart
+      else  
+        render json { error: "Did not work" }
+      end
   end
 
   def edit
   end
 
   def update
+    @cart.update(cart_params)
   end
 
   def destroy
+    @cart.destroy
   end
 
   private 
