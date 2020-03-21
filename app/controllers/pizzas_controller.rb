@@ -9,7 +9,7 @@ class PizzasController < ApplicationController
         if pizza.save 
             render json: pizza 
         else
-            render json: { error: "Sorry, we already have a pizza with that name" }
+            render json: { error: "Sorry, we couldn't fill that order" }
         end
     end
 
