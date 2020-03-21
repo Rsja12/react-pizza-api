@@ -1,5 +1,7 @@
 class CartsController < ApplicationController
 
+  before_action :set_cart, except: [:create]
+
   def show
   end
 
