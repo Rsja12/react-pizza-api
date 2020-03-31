@@ -8,7 +8,7 @@ This is the first application I built using React and Redux, and the main purpos
 
 **Tech Used**
 ---------
-React | Redux | Thunk | Semantic UI
+Rails | Postgres
 
 **Get Started**
 ---------
