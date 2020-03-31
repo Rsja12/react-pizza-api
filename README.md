@@ -11,9 +11,9 @@ This is the first application I built using React and Redux, and the main purpos
 React | Redux | Thunk | Semantic UI
 
 **Get Started**
-
+---------
 This is only the backend side of this project. The frontend can be found at https://github.com/Rsja12/react-pizza-client. Clone down this repo to your machine. Make sure to run `bundle install`, `rails db:seed`, and start a rails server with `rails s`. After doing these steps, follow along the readme for the frontend.
 
-#License
-
+**License**
+---------
 This project is licensed under the MIT License
