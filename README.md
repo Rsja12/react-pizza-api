@@ -12,7 +12,7 @@ Rails | Postgres
 
 **Get Started**
 ---------
-This is only the backend side of this project. The frontend can be found at https://github.com/Rsja12/react-pizza-client. Clone down this repo to your machine. Make sure to run `bundle install`, `rails db:seed`, and start a rails server with `rails s`. After doing these steps, follow along the readme for the frontend.
+This is only the backend side of this project. The frontend can be found at https://github.com/Rsja12/react-pizza-client. Clone down this repo to your machine. Make sure to run `bundle install`, `rails db:seed`, and start a rails server with `rails s`. Make sure that your rails server is running on port 3000. After doing these steps, follow along the readme for the frontend.
 
 **License**
 ---------
