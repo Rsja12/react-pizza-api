@@ -7,9 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Pizza.create(name: 'Margherita', description: 'tomato sauce, mozzarella, basil', price: 8.99)
-Pizza.create(name: 'Pepperoni', description: 'tomato sauce, mozzarella, pepperoni', price: 8.99)
-Pizza.create(name: 'BBQ Chicken', description: 'BBQ sauce, chicken, cilantro, red onions, fontina', price: 8.99)
-Pizza.create(name: 'Hawaiian', description: 'tomato sauce, cheese, ham, pineapple', price: 8.99)
-Pizza.create(name: 'Meat-Lovers', description: 'pepperoni, sausage, meatballs, mushrooms', price: 8.99)
+Pizza.create(name: 'Margherita', description: 'tomato sauce, mozzarella, basil', price: 8.99, quantity: nil )
+Pizza.create(name: 'Pepperoni', description: 'tomato sauce, mozzarella, pepperoni', price: 8.99, quantity: nil)
+Pizza.create(name: 'BBQ Chicken', description: 'BBQ sauce, chicken, cilantro, red onions, fontina', price: 8.99, quantity: nil)
+Pizza.create(name: 'Hawaiian', description: 'tomato sauce, cheese, ham, pineapple', price: 8.99, quantity: nil)
+Pizza.create(name: 'Meat-Lovers', description: 'pepperoni, sausage, meatballs, mushrooms', price: 8.99, quantity: nil)
 
